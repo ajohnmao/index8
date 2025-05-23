@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
+    background-color: #f1f3d7;
+    color: #323232;
+    padding: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 5px solid #323232;
+    box-sizing: border-box;
+}
+
+.body {
+  background-color: #ffffff;
+  color: #270aff;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border: 5px solid red;
+  box-sizing: border-box;
+}
+.body p {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.body a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  
+  
+  background-color: blue;
+  
+}
+.body a:hover {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  
+
+}
+.footer {
+  background-color: #ffbfbf;
+  color: #323232;
+  padding: 20px 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border: 5px solid #4dba7a;
+  box-sizing: border-box;
+}
